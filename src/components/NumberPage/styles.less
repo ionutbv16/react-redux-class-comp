@@ -1,0 +1,30 @@
+.number {
+  &__wrapper {
+    height: calc(100vh - 3.2rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__result-title {
+    margin-top: 4rem;
+    color: #183f3f;
+    display: inherit;
+    justify-content: inherit;
+  }
+
+  &__result {
+    background-color: #183f3f;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > p {
+      color: #dfdfdf;
+      font-size: 3.2rem;
+    }
+  }
+}
